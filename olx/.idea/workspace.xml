@@ -5,82 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8566d83-81c5-40ea-b1f8-54624ebeb245" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/djangoworks.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../countries/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../countries/country.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../countries/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../decorators/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../decorators/decs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/.idea/estore.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/api/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/api/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/api/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/api/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/api/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/api/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/api/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/estore/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/estore/.idea/estore.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/estore/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/estore/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/estore/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/estore/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/estore/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/estore/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/estore/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/estore/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/estore/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/.idea/pythonworks1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/bikeprogram/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/bikeprogram/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/bikeprogram/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/countries/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/countries/countrydata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/countries/view.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/decroters/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/decroters/decs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/readjson/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/readjson/bikes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/readjson/readdata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/sample/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/sample/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/sample/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/samples.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estore/pythonworks1/worldcount.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../json.json.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../class/orm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/.idea/class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../class/.idea/class.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../class/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../class/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../class/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/class/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../class/class/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/class/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../class/class/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../class/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/olx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/olx.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/olx/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/olx/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/olx/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/olx/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/olx/.idea/olx.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/olx/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/olx/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/olx/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readfromjson/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readfromjson/bikes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readfromjson/sample.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,19 +26,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2NGFyiwW3DnLejz5NUgg5xee9HJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/djangoworks/class",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/djangoworks/class&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -15,7 +15,23 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+#from api.views import productsView,MorningView,EveningView
+#from api.views import AddView,SubtractiveView
+from api.views import CubeView
+from api.views import FactorialView,WorldcountView,ProductDetailView,ReviewsView,ReviewDetailsView
+
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path("cube",CubeView.as_view()),
+    path("fact",FactorialView.as_view()),
+    path("worldcount",WorldcountView.as_view()),
+    path("products/<int:id>",ProductDetailView.as_view()),
+    path("reviews",ReviewsView.as_view()),
+    path("reviews/<int:id>",ReviewDetailsView.as_view())
+   # path("add",AddView.as_view()),
+
+    #path("sub",SubtractiveView.as_view())
 ]
+

@@ -1,0 +1,55 @@
+from django.db import models
+class Books(models.Model):
+    name=models.CharField(max_length=200)
+    author=models.CharField(max_length=120)
+    price=models.PositiveIntegerField()
+    publisher=models.CharField(max_length=200)
+    qty=models.PositiveIntegerField(default=1)
+
+
+orm query for creating an object
+Modlename.objects.create(field1=value,field2=value2......)
+Books.objects.create(name="randamoozham",author="mt",price=450,publisher="abc",qty=30)
+
+Modelname.objects.all()
+qs=Books.objects.all()
+
+fetching a specific resource
+data=Modlename.objects.get(id=2)
+
+filter queries
+qs=Books.objects.filter(price__lt=500)
+qs=Books.objects.filter(price__gt=500)
+
+data=Books.objects.all().exclude(price=550)
+Books.object.filter(price__lte=400,price__gte=800)
+
+sort
+qs=Books.objects.order_by('price')
+descending
+qs=Books.objects.order_by('-price')
+
+update
+Books.objects.filter(id=2).update(price=200)
+
+
+commends
+create a new project
+django-admin startproject projectname
+
+creating a new appilication django
+python manage.py startapp appname
+
+development  to run server
+python manage.py runserver
+
+applying migration
+ python manage.py makemigrations
+
+apply changes to database in table
+python manage.py migrate
+
+
+running app in differnt port number
+python manage.py runserver change portnumber
+eg python manage.py runserver 8002
