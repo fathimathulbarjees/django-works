@@ -18,8 +18,12 @@ from django.urls import path
 #from api.views import productsView,MorningView,EveningView
 #from api.views import AddView,SubtractiveView
 from api.views import CubeView
-from api.views import FactorialView,WorldcountView,ProductDetailView,ReviewsView,ReviewDetailsView
+from api.views import FactorialView,WorldcountView,ProductView,ProductDetailView,ReviewsView,ReviewDetailsView
+from api.views import ProductsViewsetView
 
+from rest_framework.routers import DefaultRouter
+router=DefaultRouter()
+router.register("api/v1/products",ProductsViewsetView,basename="products")
 
 
 urlpatterns = [
@@ -27,11 +31,12 @@ urlpatterns = [
     path("cube",CubeView.as_view()),
     path("fact",FactorialView.as_view()),
     path("worldcount",WorldcountView.as_view()),
+    path("products",ProductView.as_view()),
     path("products/<int:id>",ProductDetailView.as_view()),
     path("reviews",ReviewsView.as_view()),
     path("reviews/<int:id>",ReviewDetailsView.as_view())
    # path("add",AddView.as_view()),
 
     #path("sub",SubtractiveView.as_view())
-]
+]+router.urls
 

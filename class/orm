@@ -51,5 +51,26 @@ python manage.py migrate
 
 
 running app in differnt port number
-python manage.py runserver change portnumber
+python manage.py runserver ::change portnumber: port numberchange chyyn
 eg python manage.py runserver 8002
+
+
+python manage.py shell
+
+localhost:8000/products/1/add_review :means id 1 ayittulla product nte review add chyynn
+localhost:8000/products/1/get_review:id 1 ayittullaa book nte review kittan
+
+
+create a new project
+django-admin startproject projectname
+
+create a new app
+python manage.py startapp appname
+
+development server start
+python manage.py runserver
+
+applying migrations
+python manage.py makemigrations
+
+applying
